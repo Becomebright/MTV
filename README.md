@@ -4,6 +4,9 @@
 
 Official implementation of **MTV**, a multi-task visual pretraining framework designed to bridge the gap between global semantic understanding and fine-grained spatial reasoning.
 
+[![arXiv](https://img.shields.io/badge/arXiv-2601.13886-b31b1b.svg)](https://arxiv.org/abs/2601.13886)
+[![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow)](https://huggingface.co/collections/Becomebright/mtv)
+
 ## 💡 Overview
 
 MTV jointly optimizes a shared encoder across vision-language contrastive, self-supervised, and dense spatial objectives, by leveraging expert models to synthesize structured pseudo-labels at scale.
@@ -52,6 +55,18 @@ print(f"{probs[0][0]:.1%} that image 0 is '{texts[0]}'")
 ## 📅 Readmap
 
 - [x] Model
-- [ ] Paper
+- [x] Paper
 - [ ] Training Code
 - [ ] Evaluation Code
+
+## 📝 Citation
+
+If you find this work useful, please consider citing:
+```
+@article{di2026mtv,
+  title={Revisiting Multi-Task Visual Representation Learning},
+  author={Di, Shangzhe and Zhai, Zhonghua and Xie, Weidi},
+  journal={arXiv preprint arXiv:2601.13886},
+  year={2026}
+}
+```
